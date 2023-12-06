@@ -1,0 +1,78 @@
+.navigation{
+    display: inline;
+    align-items: center;
+    justify-items: center;
+    color: white;
+    border: 2px solid black;
+    width: auto;
+    text-align: center;
+
+
+}
+a{
+align-items: center;
+color: white;
+justify-content: center;
+padding: 20px;
+text-align: center;
+width: 2000px;
+height: 500px;
+
+
+}
+#links{
+/*text-align: center;*/
+    padding: 20px;
+    width: 1450px;
+    height: 50px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(15, 15, 49); 
+    margin: 10px;
+  
+}
+a{
+    text-decoration: none;
+}
+
+.link:visited {
+    color: rgb(59, 207, 14); /* Change color for visited links */
+  }
+a:hover{
+    background-color: #3D77A0;
+  }
+ h2{
+    text-align: center;
+ }
+ .ishuri{
+    text-align: center;
+ }
+.hi{
+    text-align: center;
+}
+.mainclass{
+    display: flex;
+    
+}
+.mainlab{
+    display: flex;
+}
+.mainmedi{
+display: flex;
+}
+.mainsport{
+display: flex;
+}
+h1{
+    text-align: center;
+}
+p{
+    margin-left: 30px;
+    font-size: medium;
+}
+h2{
+    font-size: x-large;
+    color: rgb(29, 101, 77);
+}
