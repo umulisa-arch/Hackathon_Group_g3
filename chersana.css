@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.bi{
+    font-size: 50px !important;
+    cursor: pointer !important; 
+}
+.bi :hover{
+    color: blue !important;
+}
+.card{
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+}
+.card-row{
+    position: relative;
+    top: 100px;
+}
+.bg-primary{
+    color: white;
+    top: 150px;
+    height: 90vh;
+    background-color: darkblue !important;
+}
+.back-container{
+    position: relative;
+    top: 100px;
+}
+.btn-primary{
+    background-color: white !important;
+    color: black !important;
+    padding: 10px !important;
+    width: 100px !important;
+}
+.form-control{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px !important;
+    color: black !important;
+    border: none !important;
+    border-radius: 0 !important;
+}
