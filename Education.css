@@ -1,0 +1,44 @@
+
+
+.image {
+    background-image: url(students.jpeg);
+    width: 1520px;
+    height: 300px;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center ;
+}
+H2{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100px;
+    justify-content: center;
+    display: flex;
+    padding-top: 100px;
+}
+.description{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+
+.learners{
+    display: flex;
+    justify-content: end;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+table, th, td {
+    border: 2px solid white;
+    border-collapse: collapse;
+    width: 2000px;
+  }
+  th, td {
+    background-color: #ecf1f1;
+    padding: 10px;
+  }
+  h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
