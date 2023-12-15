@@ -7,38 +7,60 @@
     <title>School Admission</title>
 </head>
 <body>
- 
-        <h1 style="margin-left: 247px;">Welcome to MadUp School Admission</h1>
-        <p style="margin-left: 168px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem repudiandae necessitatibus voluptates 
-            <br>molestiae sapiente voluptas sequi commodi cumque blanditiis. 
-            Nemo necessitatibus aliquid pariatur <br>fugiat suscipit itaque eius error quaerat cumque.</p>
-   
-        <form id="admission-form">
-            <label for="student-name">Student Name:</label>
-            <input type="text" id="student-name" name="student-name" required>
+    <!-- <header>
+        <h1>School Admission Form</h1>
+    </header> -->
+    
+        <h1 style="margin-left: 380px;">Welcome to MadUp School Admission</h1>
+        <br>
 
-            <label for="age">Age:</label>
-            <input type="number" id="age" name="age" required>
-
-            <label for="grade">Grade:</label>
-            <select id="grade" name="grade" required>
-                <option value="grade1">Grade 1</option>
-                <option value="grade2">Grade 2</option>
-                <option value="grade3">Grade 3</option>
-                <!-- Add more grade options as needed -->
-            </select>
-
-            <label for="parent-name">Parent/Guardian Name:</label>
-            <input type="text" id="parent-name" name="parent-name" required>
-
-            <label for="contact-number">Contact Number:</label>
-            <input type="tel" id="contact-number" name="contact-number" required>
-
+        <form id="admissionForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+        
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" required>
-
-            <button type="submit">Submit Application</button>
-        </form>
+        
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+        
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" required>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="other">Other</option>
+            </select>
+        
+            <label for="program">Program of Interest:</label>
+            <input type="text" id="program" name="program" required>
+        
+            <label for="parent-name">Parent/Guardian Name:</label>
+            <input type="text" id="parent-name" name="parent-name" required>
+        
+            <label for="contact-number">Contact Number:</label>
+            <input type="tel" id="contact-number" name="contact-number" required>
+        
+            <button type="button" onclick="submitForm()">Submit</button>
+          </form>
+        
+          <script>
+            function submitForm() {
+              var name = document.getElementById('name').value;
+              var email = document.getElementById('email').value;
+              var dob = document.getElementById('dob').value;
+              var gender = document.getElementById('gender').value;
+              var program = document.getElementById('program').value;
+        
+              // You can add more validation here if needed
+        
+              // Display a simple alert for demonstration
+              alert('Name: ' + name + '\nEmail: ' + email + '\nDate of Birth: ' + dob +
+                    '\nGender: ' + gender + '\nProgram of Interest: ' + program);
+        
+              // You can send the form data to a server using AJAX or other methods here
+            }
+          </script>
+        
     
 </body>
 </html>
